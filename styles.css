@@ -1,0 +1,98 @@
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #9ED2C6;
+  padding: 0 20px 20px 20px;
+  border-left-style: ridge;
+  border-right-style: ridge;
+  place-items: center;
+}
+
+h1 {
+  color: #829460;
+  font-family: 'Tangerine', serif;
+  font-size: 100px;
+  font-weight: lighter;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  margin: 8px 8px 8px 8px;
+  border: 3px 3px 3px 3px;
+  padding: 3px 3px 3px 3px;
+}
+
+h3 {
+  color: black;
+  font-family: 'Peralta', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+
+a.one {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  text-decoration: none;
+}
+
+a.one:link {color: #ff0000;}
+a.one:visited {
+  color: green;
+  text-decoration: none;
+}
+a.one:hover {
+  color: orange;
+  box-shadow: inset 900px 0 0 0 #54b3d6;
+  text-decoration: none;
+}
+
+a.one:active {
+  color: blue;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+a.two:link {
+  color: black;
+  font-size: 23px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+a.two:visited {
+  color: blue;
+  text-decoration: underline;
+}
+a.two:hover {font-size: 175%;}
+
+.burger {
+  display: block;
+  margin: 0 auto;
+}
+
+.milkshake1 {
+  width: 175px;
+  height: 200px;
+  margin-left: 0em;
+  object-fit: left;
+}
+
+.milkshake10 {
+  width: 175px;
+  height: 200px;
+  margin-right: 0em;
+  object-fit: right;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Peralta', sans-serif;
+  font-size: 30px;
+}
